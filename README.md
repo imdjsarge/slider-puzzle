@@ -13,9 +13,9 @@ In this assignment we will make an image slider puzzle using jQuery.  To begin, 
 
 Add a new puzzle.js file to the project and set it up using the module pattern.
 
-Add a function called tileClick().  This method should be called each time one of the cells (td) in the puzzleGrid is clicked on.
+Add a function called sliderPuzzle.tileClick().  This method should be called each time one of the cells (td) in the puzzleGrid is clicked on.
 
-The tileClick() method should:
+The sliderPuzzle.tileClick() method should:
 Popup an alert if the user clicked on the “empty” image tile.  Because you will often need to check if a cell is the empty cell, this would make a good function.
 
 if the user did not click on an empty cell, we need to determine which cell next to the image cell is the empty cell so we can swap the tiles.  (Is it above, below, right or left?)
